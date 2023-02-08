@@ -1,0 +1,8 @@
+
+
+Added Provider in App.js, created slices ui-slice, cart-slice and configured the store using configureStore in store/index.js
+Added a DUMMY_PRODUCTS in Product.js, dispatch and slice (cart-slice) in ProductItem.js and created addToCartHandler
+Added selector in Cart.js
+Added dispatch and slice (ui-slice) in CartButton.js
+Added dispatch, slice (cart-slice) in CartItems with removeItemHandler, addItemHandler
+
