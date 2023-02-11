@@ -1,0 +1,6 @@
+
+
+Added thunk in cart-slice, not created a function(sendCartData in cart-slice.js) which
+returns another function(async dispatch in cart-slice.js) as a action
+Changes made in App.js and cart-slice.js.
+Now App.js component is lean and all other logic is handled in cart-slice.js (i.e. custome action creator function in redux files)
