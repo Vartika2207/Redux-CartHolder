@@ -1,0 +1,5 @@
+
+
+Added check if cart is empty, NULL should not be used to fetch instead an empty array in cart-actions
+Added a property changed=true in cart's state in cart-slice.js 
+to handle notification tab display (should appear while cart change, not initial fetch or while page refresh)
