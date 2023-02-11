@@ -1,0 +1,5 @@
+
+
+Added another file cart-actions.js which handles fetch request 
+Moved sendCartData function from cart-slice.js to cart-actions.js
+Added useEffect in App.js to fetch (logic in cart-actions.js) the data and display
