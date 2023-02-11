@@ -44,6 +44,7 @@ function App() {
 
       if(!response.ok) {
         throw new Error('Sending cart data failed.');
+        // below code will give a general error msg, will not specify the error hence throw error will be better to use
         // dispatch(
         //   uiActions.showNotification({
         //     status: 'error',
